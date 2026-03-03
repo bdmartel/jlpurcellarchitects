@@ -1,0 +1,749 @@
+/*
+Theme Name: Starkers
+Theme URI: http://elliotjaystocks.com
+Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
+Version: 3.0
+Author: Elliot Jay Stocks
+Author URI: http://elliotjaystocks.com
+Tags: starkers, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+body {
+    font-family: "Optima","CG Omega",Arial,Helvetica;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: #0000FF;
+}
+
+.login{}
+#header h1 {
+    font-size: 137%;
+    font-weight: normal;
+    opacity: 0.9;
+    padding-left: 2px;
+    padding-top: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: 1px;
+}#header p {
+    bottom: 4px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 98%;
+    opacity: 0.8;
+    position: absolute;
+    text-transform: lowercase;
+}
+#contact {
+    background-image: url("images/bg.png");
+    float: left;
+    height: 475px;
+    position: relative;
+    width: 727px;
+}#loginpage{
+    background-image: url("images/bg.png");
+    height: 475px;
+    position: relative;
+
+}
+#contact ul {
+    padding: 20px;
+}
+#contact p {
+    padding: 8px;
+}
+#header a {
+    color: #FFFFFF;
+}.AIA {
+    padding-left: 8px;
+}
+#location {
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 8px;
+}
+#top-links {
+    bottom: 4px;
+    opacity: 0.9;
+    position: absolute;
+    right: 0;
+}#top-links a {
+    padding-left: 10px;
+}
+#menu-top-links li{float: left}
+.mouseover-gallery {
+    right: 0;
+}
+
+
+
+
+#wpadminbar{display: none !important; height: 0px}
+.logged-in{margin-top: -28px !important;}
+
+#wrapper {
+    margin: 4px auto;
+    width: 999px;
+}
+#header {
+    background-image: url("images/header-bg.png");
+    color: #FFFFFF;
+    font-family: 'Molengo',sans-serif;
+    font-size: 12px;
+    height: 50px;
+    left: 120px;
+    letter-spacing: 2px;
+    margin: 4px auto 0;
+    position: relative;
+    width: 724px;
+}
+
+#header h1, #header p{padding-left: 10px}
+#location, #top-links{padding-right: 10px}
+#left {
+    clear: both;
+    float: left;
+    margin-right: 8px;
+    width: 248px;
+}
+#right {
+    float: left;
+    height: 473px;
+    margin-top: -1px;
+    position: relative;
+    width: 724px;
+}.thumbs {
+    margin-left: auto;
+    width: 122px;
+}
+.select-view {
+    color: #000000;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
+    text-align: right;
+}
+#project-info {
+    clear: both;
+    margin-left: auto;
+    text-align: right;
+    width: 220px;
+}
+#bottom-nav {
+    clear: both;
+    height: 158px;
+    left: 2px;
+    margin-left: auto;
+    position: relative;
+    top: -11px;
+    width: 774px;
+}#foot {
+    border-top: 1px solid #666666;
+    clear: both;
+    font-size: 13px;
+    margin: 7px 137px 20px auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 474px;
+}
+.page-id-59 .large-image img {
+    border: 3px solid #888888;
+}
+
+.left_part {
+    border-right: 1px solid white;
+    float: right;
+    height: 475px;
+    padding: 0;
+    width: 724px;
+}
+.right_part {
+    left: -125px;
+    position: absolute;
+    top: 50px;
+    width: 116px;
+}
+.left_part .wrapper {
+    width: auto;
+}
+#project-info h2 {
+    color: #000000;
+    font-family: "Optima LT STD";
+    font-size: 0.7em;
+    letter-spacing: 0.24em;
+    margin-right: -2px;
+    text-transform: uppercase;
+}
+
+#project-info h3 {
+color: #000000;
+font-family: "Optima","CG Omega",Arial,Helvetica;
+font-size: 9px;
+font-weight: normal;
+letter-spacing: 2px;
+line-height: 23px;
+position: relative;
+text-transform: uppercase;
+top: -4px;
+}
+#project-info p {
+    color: #333333;
+    font-family: "Optima","CG Omega",Arial,Helvetica;
+    font-size: 13px;
+    margin-top: -2px;
+    padding-bottom: 10px;
+}
+
+.project-link{}
+.thumbs img {
+border: 1px solid #777777;
+float: left;
+margin-bottom: 8px;
+margin-left: 7px;
+padding-bottom: 0;
+padding-right: 0;
+}
+.large-image {
+    height: 475px;
+    position: relative;
+    width: 724px;
+}
+.bottom-links{}
+
+
+
+
+
+
+
+    /* Carousel */
+    
+.jcarousel-item-horizontal a div {
+font-size: 9px;
+letter-spacing: 1px;
+padding-top: 1px;
+width: 103px;
+}
+.jcarousel-skin-tango .jcarousel-container {
+
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    padding: 20px 30px;
+    width: 724px;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    height: 116px;
+    width: 726px;
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    height: 129px;
+    width: 95px;
+     margin-left: 0;
+    margin-right: 10px;
+
+}
+
+.jcarousel-item-horizontal a {
+    color: #333333;
+    font-size: 70%;
+    text-shadow: 0 0 0 #000000;
+    text-transform: uppercase;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    background: url("css/tango/next-horizontal.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 94px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 32px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(https://jlpurcellarchitects.com/wp-content/themes/Starkers/prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    background: url("css/tango/prev-horizontal.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 94px;
+    left: 0px;
+    position: absolute;
+    top: 20px;
+    width: 32px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(https://jlpurcellarchitects.com/wp-content/themes/Starkers/next-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(https://jlpurcellarchitects.com/wp-content/themes/Starkers/next-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(https://jlpurcellarchitects.com/wp-content/themes/Starkers/prev-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.postid-66 .thumbs, .home .thumbs {
+    margin-left: auto;
+    width: 192px;
+}	
+.postid-409 #project-info h2 {
+    color: #000000;
+    float: right;
+    font-family: "Optima LT STD";
+    font-size: 0.7em;
+    letter-spacing: 0.24em;
+    margin-right: -2px;
+    text-transform: uppercase;
+    width: 200px;
+}
+/*
+.row {
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    float: left;
+    margin: 0 0 0 17px;
+    padding: 20px 0;
+}
+.col-left {
+}
+.col-right {
+}
+ul.row li {
+    float: left;
+}
+ul.row li#col-left {
+    margin-left: 10px;
+    width: 160px;
+}
+ul.row li#col-right {
+    border-left: 1px solid #CCCCCC;
+    font-size: 0.85em;
+    margin-left: 0;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 60px;
+    width: 440px;
+}
+ul.row li ul li {
+    list-style: disc outside none;
+    margin-bottom: 20px;
+}
+.page-id-438 h2 {
+    text-align: left;
+}
+
+ul.row li ul {
+    padding-left: 10px;
+}
+*/
+.row, #col-left, #col-right {
+    float: left;
+}
+.row {
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+}
+.col-left {
+}
+.col-right {
+}
+ul.row li#col-left {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 180px;
+}
+ul.row li#col-right {
+    border-left: 1px solid #CCCCCC;
+    font-size: 0.85em;
+    padding: 10px 20px 20px;
+    width: 474px;
+}
+ul.row li ul li {
+    list-style: disc outside none;
+}
+.page-id-438 h2 {
+}
+ul.row li ul {
+    padding-left: 15px;
+}
+.row p {
+    line-height: 23px;
+}
+
+#bottom-nav img {
+    border: 1px solid #CCCCCC;
+}
+.page-id-443 .row {
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    margin-top: 50px;
+}
+.page-id-443 ul.row li#col-left {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 180px;
+}
+#project-info ul {
+    margin-top: 8px;
+}
+#project-info ul li {
+    color: #333333;
+    font-size: 13px;
+    list-style: disc outside none;
+    padding: 1px 0;
+    text-align: left;
+}
+
+.postid-404 #project-info p, .postid-409 #project-info p {
+    color: #333333;
+    font-family: "Optima","CG Omega",Arial,Helvetica;
+    font-size: 12px;
+    line-height: 13px;
+    margin-top: -2px;
+    padding-bottom: 10px;
+}
+.page-id-443 #col-left h2 {
+    margin-top: -55px;
+}
+#col-right img{}
+#col-right{position: relative}
+
+
+.page-id-614 .scroll-pane ul {
+    border-left: 1px solid #CCCCCC;
+    float: right;
+    font-size: 0.85em;
+    margin-top: 20px;
+    padding: 0 20px 20px 31px;
+    width: 474px;
+}
+.page-id-614 .scroll-pane ul li {
+    line-height: 25px;
+    list-style: disc outside none;
+}
+.page-id-614 .scroll-pane ul a {
+}
+.page-id-614 .scroll-pane h2 {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 180px;
+}
+
+#theme-my-login {
+    background-color: #FFFFFF;
+    border: 1px groove #D4D4D4;
+    clear: both;
+    float: left;
+    padding: 28px 20px 20px;
+}
+
+.login-wrap {
+    margin: 43px auto 0;
+    width: 375px;
+}
+
+#loginform {
+    margin-top: 10px;
+}
+#contact input#wp-submit {
+    background: none repeat scroll 0 0 #666666;
+    border: medium none;
+    color: #FFFFFF;
+    float: right;
+    height: 25px;
+    padding-bottom: 3px;
+    width: 63px;
+}
+#lostpasswordform input#wp-submit {
+    float: none;
+    width: 113px;
+}
+#loginform p.submit {
+    padding-right: 0;
+}
+
+#loginform input {
+width: 159px;
+}
+#loginform .forgetmenot input{width: auto;}
+#loginform label, #lostpasswordform label, #registerform label {
+    color: #333333;
+    font-family: arial;
+    font-size: 12px;
+}
+#lostpasswordform p{padding-top: 8px}
+#contact ul.tml-action-links {
+    float: left;
+    margin-top: 18px;
+    padding: 0;
+    width: 100%;
+}
+.tml-action-links li {
+    float: right;
+    padding: 5px 0 5px 8px;
+}
+
+.login-wrap a, .tml-action-links a {
+    color: #000000;
+    text-decoration: underline;
+}
+.tml-action-links a {
+    float: right;
+    font-size: 14px;
+    display: block
+}
+.tml-action-links li {
+    display: block !important;
+}
+
+
+#contact p.forgetmenot {
+    float: left;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-top: 6px;
+}
+#loginform input#wp-submit:hover {
+background-color: #000;
+cursor: pointer;
+}
+#contact p.frmel {
+    float: left;
+    padding-right: 0;
+    width: 162px;
+}
+
+#contact p.frmel, #registerform p {
+    float: left;
+    width: 162px;
+}
+#registerform p {
+    width: 150px;
+}
+#contact .login p.message, #contact .login p.error, #contact .message {
+    background-color: #EBEBEB;
+    border: 1px groove #D4D4D4;
+    color: #333333;
+    padding: 10px 0;
+    font-size: 14px;
+    padding: 15px 14px;
+    text-align: left;
+}
+#contact #theme-my-login .message {margin-bottom: 8px}
+#contact .login p.error {
+}
+#contact p.frmel1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.tml-action-links li:first-child {
+    border-left: 1px groove #000000;
+    margin-left: 10px;
+}
+.tml-action-links li {
+    height: 14px;
+    padding-top: 0;
+}
+
+
+
+a:focus {outline: none; border: none;
+}
+
+ul#right > li img {
+max-height: 475px;
+width: auto;
+}
+area{outline:none}
+#protect {
+width: 724px;
+height: 475px;
+position: absolute;
+z-index: 9999;
+}
+.logged-in #headimage {
+margin-top: 0;
+position: relative;
+top: -4px;
+}
+.logout {
+width: 100%;
+}
+.logout a {
+display: block;
+background-color: rgb(90, 124, 8);
+color: antiquewhite;
+padding: 5px 10px 9px 0;
+text-align: right;
+}
+.logout a:hover {
+text-decoration: underline}
+
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: " ";
+	height: 0px;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hide these rules from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+li.clearfix {
+	display: list-item;
+}
+/* End hide from IE-mac */
+
+.logged-in #header{
+height: 77px;
+}
+.faolhcw {
+position: relative;
+top: 8px;
+left: 2px;
+}
